@@ -1,0 +1,13 @@
+services
+  - type web
+    name university-backend
+    env java
+    buildCommand .mvnw clean package
+    startCommand java -jar targetuniversity_backend-0.0.1-SNAPSHOT.jar
+    branch main
+    region oregon
+    buildFilter
+      paths
+        - src
+        - pom.xml
+    autoDeploy true
