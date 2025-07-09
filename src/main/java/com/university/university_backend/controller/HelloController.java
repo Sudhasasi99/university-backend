@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "https://app.netlify.com/projects/joyful-cajeta-f0bc16/deploys")
+@CrossOrigin(origins = "https://joyful-cajeta-f0bc16.netlify.app/")
 @RestController
 @RequestMapping("/api")
 public class HelloController {
