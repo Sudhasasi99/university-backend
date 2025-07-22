@@ -1,4 +1,4 @@
-package com.university.dto;
+package com.university.university_backend.dto;
 
 public class LoginRequest {
     private String email;

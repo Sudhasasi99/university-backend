@@ -1,4 +1,4 @@
-package com.university.entity;
+package com.university.university_backend.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

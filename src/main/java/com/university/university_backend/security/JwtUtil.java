@@ -1,4 +1,4 @@
-package com.university.security;
+package com.university.university_backend.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
