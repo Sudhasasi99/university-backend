@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-
+@CrossOrigin(origins = "https://joyful-cajeta-f0bc16.netlify.app")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
